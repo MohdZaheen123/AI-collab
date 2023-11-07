@@ -6,6 +6,7 @@ export default function Hero() {
     <>
     <div className=' flex h-screen'>
         <img src="/home.jpg" className='absolute top-32 opacity-70 z-[-10] md:hidden' alt="" />
+        <img src="/hero.jpg" className='absolute top-10 opacity-60 z-[-10] hidden md:block w-screen' alt="" />
         <div className=' text-white self-center w-screen'>
         <h1 className={`${roboto.className}  text-center text-5xl`}>AI <span className="text-blue-400">Collab</span></h1>
         <p className={`${roboto.className} text-center`}>Think | Collab | Design</p>
